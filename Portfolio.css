@@ -546,3 +546,26 @@ section:nth-child(2n + 1) {
     }
 
 }
+
+@media only screen and (max-width: 450px){
+    #main{
+        height: 54vh;
+    }
+
+    #text{
+        top: 18vh;
+    }
+
+    #main-icons{
+        top: 43%;
+        right: 32%;
+    }
+
+    #main-icons .horizontal-list li{
+        display: inline-block;
+    }
+
+    #cube{
+        margin: 34vh 10%;
+    }
+}
