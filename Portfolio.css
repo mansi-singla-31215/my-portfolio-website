@@ -549,16 +549,18 @@ section:nth-child(2n + 1) {
 
 @media only screen and (max-width: 450px){
     #main{
-        height: 54vh;
+        height: 65vh;
     }
 
     #text{
-        top: 18vh;
+        top: 22vh;
     }
 
     #main-icons{
-        top: 43%;
+        top: 45%;
+        margin-top: 10vh;
         right: 32%;
+
     }
 
     #main-icons .horizontal-list li{
@@ -566,6 +568,6 @@ section:nth-child(2n + 1) {
     }
 
     #cube{
-        margin: 34vh 10%;
+        margin: 43vh 10%;
     }
 }
